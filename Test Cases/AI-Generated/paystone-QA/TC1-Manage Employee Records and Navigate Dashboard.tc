@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login to the application and navigate through the dashboard. Search for employees, edit their details, and manage payroll and leave requests. Logout after completing tasks.</description>
+   <name>TC1-Manage Employee Records and Navigate Dashboard</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5b9f3199-b784-4533-8880-70aa6ce4fb58</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>ae70c37b-8528-482b-9e6c-52f669d2b317</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+   <variable>
+      <defaultValue>'tab-compensation'</defaultValue>
+      <description>Step 12: Click on button employeeTabs (compensationTab) - (Dynamic locator variable)</description>
+      <id>4f3f506d-9e2a-4674-95d3-64521b88f0c2</id>
+      <masked>false</masked>
+      <name>button_employeeTabs_DataTestid</name>
+   </variable>
+   <variable>
+      <defaultValue>'tab-leave'</defaultValue>
+      <description>Step 13: Click on button employeeTabs (leaveTab) - (Dynamic locator variable)</description>
+      <id>b2da44a9-aaa4-4f23-96e5-cc7a14bdd037</id>
+      <masked>false</masked>
+      <name>button_employeeTabs_DataTestid_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'emp-department'</defaultValue>
+      <description>Step 16: Select option with input value from select employeeFilters (department) - (Dynamic locator variable)</description>
+      <id>7f43059f-31d0-4d2e-9d95-1cafec11e95e</id>
+      <masked>false</masked>
+      <name>button_employeeTabs_DataTestid_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'emp-status'</defaultValue>
+      <description>Step 17: Select option with input value from select employeeFilters (status) - (Dynamic locator variable)</description>
+      <id>3aba3ebf-5945-4362-bbba-ac3160934b2a</id>
+      <masked>false</masked>
+      <name>button_employeeTabs_DataTestid_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'button:nth-of-type(2)'</defaultValue>
+      <description>Step 12: Click on button employeeTabs (compensationTab) - (Dynamic locator variable)</description>
+      <id>7e3770d6-31fc-473e-8ca2-1dd508aef806</id>
+      <masked>false</masked>
+      <name>button_employeeTabs_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'button:nth-of-type(3)'</defaultValue>
+      <description>Step 13: Click on button employeeTabs (leaveTab) - (Dynamic locator variable)</description>
+      <id>c0525511-16c1-4d19-b4dd-a540262f7e52</id>
+      <masked>false</masked>
+      <name>button_employeeTabs_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'#emp-department'</defaultValue>
+      <description>Step 16: Select option with input value from select employeeFilters (department) - (Dynamic locator variable)</description>
+      <id>5338b535-ec5c-48bf-9ffc-5fa79d937320</id>
+      <masked>false</masked>
+      <name>button_employeeTabs_css_value_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'#emp-status'</defaultValue>
+      <description>Step 17: Select option with input value from select employeeFilters (status) - (Dynamic locator variable)</description>
+      <id>f6b5a08a-ba53-4a4c-ae65-c1ed99f458b8</id>
+      <masked>false</masked>
+      <name>button_employeeTabs_css_value_3</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 5: Enter input value in input searchEmployees - (Input data variable)</description>
+      <id>72b5cc0d-22c8-4671-a9e7-9ef68607a130</id>
+      <masked>false</masked>
+      <name>input_searchEmployees</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 7: Enter input value in input searchEmployees - (Input data variable)</description>
+      <id>1d0df453-1b0b-47cb-b083-e2986518e90f</id>
+      <masked>false</masked>
+      <name>input_searchEmployees_1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 11: Click on link employee -> Navigate to page '/employees/*' - (Dynamic locator variable)</description>
+      <id>a0618138-ef59-42cd-9e09-0414e02dc3f0</id>
+      <masked>false</masked>
+      <name>link_employee_nameRedacted</name>
+   </variable>
+   <variable>
+      <defaultValue>'/'</defaultValue>
+      <description>Step 1: Navigate to https://bhavyansh-paystone-hr.vercel.app/login with params (next) - (Dynamic URL variable)</description>
+      <id>9ca94aa9-2f2b-4f10-99c4-eb131059c3ff</id>
+      <masked>false</masked>
+      <name>login_next</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 16: Select option with input value from select employeeFilters (department) - (Input data variable)</description>
+      <id>0823c75f-53f3-4b09-bf7f-e9d0ba156894</id>
+      <masked>false</masked>
+      <name>select_employeeFilters</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 17: Select option with input value from select employeeFilters (status) - (Input data variable)</description>
+      <id>47f03176-0455-414a-b0b0-12697ee15000</id>
+      <masked>false</masked>
+      <name>select_employeeFilters_1</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>ae70c37b-8528-482b-9e6c-52f669d2b317</id>
+      </flow>
+   </customField>
+</TestCaseEntity>
