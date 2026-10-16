@@ -27,24 +27,24 @@ TrueTestScripts.navigate("/employees", ["q": employees_q])
 
 "Step 4: Click on button userMenu"
 
-// Bind values to the variables in the locators of "AI-Generated/paystone-QA/Page_employees/button_userMenu"
-TrueTestScripts.click(findTestObject('AI-Generated/paystone-QA/Page_employees/button_userMenu', ['button_userMenu_passwordRedacted': button_userMenu_passwordRedacted]))
+// Bind values to the variables in the locators of "Archived/Archived_20261016/paystone-QA/Page_employees/button_userMenu"
+TrueTestScripts.click(findTestObject('Archived/Archived_20261016/paystone-QA/Page_employees/button_userMenu', ['button_userMenu_passwordRedacted': button_userMenu_passwordRedacted]))
 
 "Step 5: Click on main employeeList"
 
-TrueTestScripts.click(findTestObject('AI-Generated/paystone-QA/Page_employees/main_employeeList'))
+TrueTestScripts.click(findTestObject('Archived/Archived_20261016/paystone-QA/Page_employees/main_employeeList'))
 
 "Step 6: Click on link dashboard -> Navigate to page '/dashboard'"
 
-TrueTestScripts.click(findTestObject('AI-Generated/paystone-QA/Page_employees/link_dashboard'))
+TrueTestScripts.click(findTestObject('Archived/Archived_20261016/paystone-QA/Page_employees/link_dashboard'))
 
 "Step 7: Click on input searchEmployees"
 
-TrueTestScripts.click(findTestObject('AI-Generated/paystone-QA/Page_dashboard/input_searchEmployees2'))
+TrueTestScripts.click(findTestObject('Archived/Archived_20261016/paystone-QA/Page_dashboard/input_searchEmployees2'))
 
 "Step 8: Enter input value in input searchEmployees -> Navigate to page ''"
 
-TrueTestScripts.setText(findTestObject('AI-Generated/paystone-QA/Page_dashboard/input_searchEmployees2'), input_searchEmployees)
+TrueTestScripts.setText(findTestObject('Archived/Archived_20261016/paystone-QA/Page_dashboard/input_searchEmployees2'), input_searchEmployees)
 
 "Step 9: Take full page screenshot as checkpoint"
 
