@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Open the employee list, enter a search query, and review the resulting page.</description>
+   <name>TC1-Open and review the employee search page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e0969084-aece-44a4-a716-b160bd0348e5</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>9a4c2a4f-ccf9-4a5c-b6cb-efa6f7993275</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 4: Click on button userMenu - (Dynamic locator variable)</description>
+      <id>bae02e47-fdb1-43f1-a490-cb7c3ba14ad5</id>
+      <masked>false</masked>
+      <name>button_userMenu_passwordRedacted</name>
+   </variable>
+   <variable>
+      <defaultValue>'1001'</defaultValue>
+      <description>Step 3: Navigate to https://bhavyansh-paystone-hr.vercel.app/employees with params (q) - (Dynamic URL variable)</description>
+      <id>7f084b55-8c54-467f-924a-de0bd85165d6</id>
+      <masked>false</masked>
+      <name>employees_q</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 8: Enter input value in input searchEmployees -> Navigate to page '' - (Input data variable)</description>
+      <id>2e1d0615-9932-4c9e-8e9f-9a80dc47feec</id>
+      <masked>false</masked>
+      <name>input_searchEmployees</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>9a4c2a4f-ccf9-4a5c-b6cb-efa6f7993275</id>
+      </flow>
+   </customField>
+</TestCaseEntity>
